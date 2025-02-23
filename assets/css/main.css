@@ -5646,3 +5646,39 @@ input, select, textarea {
     margin: 0 auto;
 }
 
+
+
+
+/* Ensure dropdown stays inside the article */
+article .dropdown {
+    display: block;
+    width: 100%;
+    text-align: center; /* Centers the button */
+    margin-top: 1rem;
+}
+
+/* Ensure the dropdown menu stays inside the article */
+article .dropdown-menu {
+    position: relative;
+    text-align: left;
+    margin-top: 0.5rem;
+}
+
+
+
+/* Center the "VIEW PROJECT" button inside the section */
+article .dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the button */
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+/* Reduce space below the button */
+article .dropdown-menu {
+    margin-top: 0.3rem; /* Adjust spacing below */
+}
+
+
