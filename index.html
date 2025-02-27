@@ -89,6 +89,7 @@
 							<ul class="left-aligned">
 								<li><strong>Compute & Networking:</strong> EC2, SSH (VSCode)</li>
 								<li><strong>Development Tools:</strong> Maven, Java, Git, GitHub</li>
+								<li><strong>Web Servers:</strong> Tomcat, Apache httpd</li>
 								<li><strong>Package Management:</strong> CodeArtifact, IAM Policies</li>
 								<li><strong>Storage & Artifacts:</strong> S3</li>
 								<li><strong>Build & Deployment:</strong> CodeBuild, CodeDeploy, CloudFormation</li>
@@ -150,11 +151,12 @@
 										<img src="images/Docker.jpg" alt="Docker" id="docker-zoomable-image">
 									</div>  
 									<p>Why should you care about containers? Developers use containers to package their applications, making them easy to share and run across different environments. Containers have revolutionized software development by enhancing speed and efficiency while simplifying the deployment process.</p>
-									<p> In this project, I'll create my own container (beginner-friendly!) and run it using a platform called Docker 🐳. I'll also explore an awesome AWS service called AWS Elastic Beanstalk, which will help me deploy my containerized application in the cloud and make it available to the world!. </p>
+									<p> In this project, I created a Docker container and deployed it using AWS Elastic Beanstalk. I used Nginx as a web server to serve my application efficiently, making it easier to deploy and share my web app. </p>
 									<p><strong>Services & Tools Used:</strong></p>
 							<ul class="left-aligned">
 								<li><strong>Containerization: </strong> Docker</li>
 								<li><strong>Image Management: </strong> Dockerfile to define and build a custom Docker image containing the application's index.html file.</li>
+								<li><strong>Web Server:</strong> Nginx</li>
 								<li><strong>Cloud Deployment:</strong> AWS Elastic Beanstalk</li>
 								<div class="dropdown"></div>
 									<ul class="actions special">
@@ -173,12 +175,11 @@
 									<p>In this two-part project series, I built and managed a Kubernetes cluster, launched EC2 instances, and deployed a fully functional backend application using Kubernetes. The project focused on ensuring scalability, efficiency, and reliability in cloud deployments. I also tested the resilience of my Kubernetes cluster to handle failures and maintain high availability. This project demonstrates end-to-end backend deployment, from containerization to orchestration, using industry best practices.</p>
 									<p><strong>Services & Tools Used:</strong></p>
 							<ul class="left-aligned">
-								<li><strong>Compute & Networking:</strong> EC2, SSH (VSCode)</li>
-								<li><strong>Development Tools:</strong> Maven, Java, Git, GitHub</li>
-								<li><strong>Package Management:</strong> CodeArtifact, IAM Policies</li>
-								<li><strong>Storage & Artifacts:</strong> S3</li>
-								<li><strong>Build & Deployment:</strong> CodeBuild, CodeDeploy, CloudFormation</li>
-								<li><strong>CI/CD Automation:</strong> CodePipeline (GitHub → CodeBuild → CodeDeploy)</li>
+								<li><strong>Compute & Orchestration:</strong>  EC2, Kubernetes (EKS), eksctl, kubectl</li>
+								<li><strong>Containerization & Image Management: </strong> Docker, Amazon ECR</li>
+								<li><strong>Infrastructure as Code:</strong> CloudFormation, Kubernetes Manifests</li>
+								<li><strong>Deployment & Automation: </strong> Kubernetes Deployments</li>
+								<li><strong>Version Control:</strong> Git, GitHub</li>
 							</ul>
 									<div class="dropdown">
 										<button class="button view-project-btn">VIEW PROJECT</button>
@@ -303,6 +304,7 @@
         <ul>
             <li>VPC design, VPC peering, VPC endpoints, IAM, security groups, route tables</li>
             <li>SSH and Putty for secure access</li>
+			<li>TCP/IP (Networking fundamentals)</li>
         </ul>
     </div>
 
@@ -313,6 +315,14 @@
             <li>Infrastructure as Code: Terraform, CloudFormation</li>
             <li>Deployment: AWS Elastic Beanstalk, Kubernetes, Jenkins & Ansible (familiar)</li>
             <li>Version Control: Git, GitHub</li>
+			<li> Build Automation & Dependency Management: Maven</li>
+        </ul>
+    </div>
+
+	<div class="skill-category">
+        <strong>Web & Application Servers</strong>
+        <ul>
+            <li>Apache Tomcat, Nginx, Apache HTTPD </li>
         </ul>
     </div>
 
